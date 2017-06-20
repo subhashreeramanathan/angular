@@ -9,7 +9,7 @@
   <PropertyGroup Label="Globals">
   <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <ProjectGuid>719f4423-0c14-4a02-8af4-4b8a65d7facb</ProjectGuid>
-    <RootNamespace>seed</RootNamespace>
+    <RootNamespace>ejangularapplication</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
