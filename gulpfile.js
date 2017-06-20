@@ -34,4 +34,4 @@ gulp.task('watch.ts', ['ts'], function () {
     return gulp.watch('src/**/*.ts', ['ts']);
 });
 
-gulp.task('default', ['watch','copy:systemjs', 'copy:lib']);
+gulp.task('default', ['watch','copy:systemjs', 'copy:lib', 'copy:html']);
