@@ -33,13 +33,5 @@ gulp.task('watch', ['watch.ts']);
 gulp.task('watch.ts', ['ts'], function () {
     return gulp.watch('src/**/*.ts', ['ts']);
 });
-gulp.task('copy:html', function () {
-    return gulp.src('app/**/*.html')
-        .pipe(gulp.dest('./wwwroot/'));
-});
 
-gulp.task('copy:css', function () {
-    return gulp.src('app/**/*.css')
-        .pipe(gulp.dest('./wwwroot/'));
-});
-gulp.task('default', ['watch', 'ts', 'copy:systemjs', 'copy:lib', 'copy:html', 'copy:css' ]);
+gulp.task('default', ['watch', 'copy:systemjs', 'copy:lib' ]);
