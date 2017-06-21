@@ -42,12 +42,12 @@
     "angular2-in-memory-web-api": "0.0.20",
     "bootstrap": "^3.3.6",
     "core-js": "^2.4.1",
-    "ej-angular2": "^15.1.33",
+    "ej-angular2": "^15.2.43",
     "jquery": "^3.2.1",
-    "jsrender": "^0.9.75",
-    "reflect-metadata": "^0.1.3",
-    "rxjs": "5.0.1",
-    "syncfusion-javascript": "^15.1.33",
+    "jsrender": "^0.9.86",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "5.4.1",
+    "syncfusion-javascript": "^15.2.43",
     "systemjs": "0.19.40",
     "zone.js": "^0.7.4"
   },
@@ -62,3 +62,4 @@
     "typescript": "^2.1.4"
   }
 }
+
